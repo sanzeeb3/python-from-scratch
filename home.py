@@ -33,8 +33,40 @@ print(x)
 myfunc()
 
 def myfunct():
-   global x = 'bad' #variable declared withnamespace global
+   global x = 'bad' #variable declared withnamespace global.
    print(x)
 
 print(x)    #Output bad.
-   
+
+print(type(x))  #Prints datatype.
+
+x = str('Hello World!')
+x = ['apple', 'orange', 'banana']  #list datatype.
+x = ('apple', 'orange', 'banana')  #tupple datatype.
+x = {"apple", "banana", "cherry"}  #set datatype.
+
+#More datatypes here and description: https://www.w3schools.com/python/python_datatypes.asp
+
+#Numbers
+#Casting x = int(2.8) Outputs 2.
+
+
+#Strings are arrays.
+x = 'Hello World!'
+print(x[1])   #Prints e.
+
+#Lists.
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1]) #Prints the last item of the list:
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5]) #Returns the third, fourth, and fifth item:
+
+#More on lists: https://www.w3schools.com/python/python_lists.asp
+# Loop through a list.
+# Check if item exists.
+# List Length.
+# Add itmes.
+# Remove items. etc.
+
+
